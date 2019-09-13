@@ -37,6 +37,11 @@
     font-size: 64px;
 }
 
+/* コンテンツ部分 */
+#main {
+    padding-top: 60px;
+}
+
 /* メニュー関係 */
 .main_h {
     position: fixed;
