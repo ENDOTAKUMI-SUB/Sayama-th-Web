@@ -37,6 +37,21 @@
     font-size: 64px;
 }
 
+/* コンテンツ部分 */
+#main {
+    padding-top: 60px;
+}
+
+/* フッター部分 */
+#footer {
+    width: 100%;
+    padding-top: 20px;
+    height: 100px;
+    clear: both;
+    text-align: center;
+    background-color: #e1e4e9;
+}
+
 /* メニュー関係 */
 .main_h {
     position: fixed;
