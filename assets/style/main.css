@@ -1,4 +1,20 @@
 
+/* リンクのデザイン */
+#main a {
+    display: inline-block;
+	padding: 0.3em;
+	transition: .3s;
+	transform: scale(1);
+	color: #F4511E;
+}
+#main a:hover {
+	transform: scale(1.05);
+}
+
+#main a:visited {
+    color: #F4511E;
+}
+
 /* index.htmlの動画関係 */
 #video {
     width: 100%;
