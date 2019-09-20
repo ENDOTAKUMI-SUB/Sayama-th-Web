@@ -42,9 +42,19 @@
     padding-top: 60px;
 }
 
-/**/
-.google_map {
-    text-align: center;
+/* Google Map */
+.google_map  {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.google_map  iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
 }
 
 /* H2 */
