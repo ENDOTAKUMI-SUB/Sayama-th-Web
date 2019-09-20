@@ -15,6 +15,21 @@
     color: #F4511E;
 }
 
+
+a[target="_blank"]{
+    color: #1E88E5;
+    text-decoration: none;
+}
+
+a[target="_blank"]::before{
+    margin-right: 3px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f35d';
+    display: inline-block;
+    vertical-align: -1px;
+}
+
 /* index.htmlの動画関係 */
 #video {
     width: 100%;
