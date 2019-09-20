@@ -54,6 +54,35 @@ ul li, ol li {
     padding: 0.5em 0;
 }
 
+/* 置学科及び定員 */
+table {
+    margin: 20px auto;
+}
+
+.department_of_installation th {
+    background: #e9727e;
+    border: solid 1px #ccc;
+    color: #fff;
+    padding: 10px;
+}
+
+.department_of_installation td {
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    .department_of_installation {
+        width: 80%;
+    }
+    .department_of_installation th,
+    .department_of_installation td {
+        border-bottom: none;
+        display: block;
+        width: 100%;
+    }
+}
+
 /* Google Map */
 .google_map  {
     height: 0;
