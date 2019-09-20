@@ -1,4 +1,35 @@
 
+/* リンクのデザイン */
+#main a {
+    display: inline-block;
+	padding: 0.3em;
+	transition: .3s;
+	transform: scale(1);
+	color: #F4511E;
+}
+#main a:hover {
+	transform: scale(1.05);
+}
+
+#main a:visited {
+    color: #F4511E;
+}
+
+
+a[target="_blank"]{
+    color: #1E88E5;
+    text-decoration: none;
+}
+
+a[target="_blank"]::before{
+    margin-right: 3px;
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f35d';
+    display: inline-block;
+    vertical-align: -1px;
+}
+
 /* index.htmlの動画関係 */
 #video {
     width: 100%;
@@ -42,9 +73,102 @@
     padding-top: 60px;
 }
 
-/**/
-.google_map {
-    text-align: center;
+/* 教育目標のリストデザイン */
+ul.educational_goals, ol {
+    border-radius :8px;
+    box-shadow :0px 0px 5px silver;
+    padding: 0.5em 0.5em 0.5em 2em;
+    margin-bottom: 20px;
+}
+
+ul.educational_goals li, ol.educational_goals li {
+    line-height: 1.5;
+    padding: 0.5em 0;
+}
+
+/* 置学科及び定員 */
+table {
+    margin: 20px auto;
+}
+
+.department_of_installation th {
+    background: #e9727e;
+    border: solid 1px #ccc;
+    color: #fff;
+    padding: 10px;
+}
+
+.department_of_installation td {
+    border: solid 1px #ccc;
+    padding: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    .department_of_installation_last td:last-child {
+        border-bottom: solid 1px #ccc;
+        width: 100%;
+    }
+    
+    .department_of_installation {
+        width: 80%;
+    }
+    .department_of_installation th,
+    .department_of_installation td {
+        border-bottom: none;
+        display: block;
+        width: 100%;
+    }
+}
+
+/* Google Map */
+.google_map  {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+.google_map  iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+/* H2 */
+h2 {
+    padding: 0.4em 0.5em;
+    color: #494949;
+    background: #f4f4f4;
+    border-left: solid 5px #7db4e6;
+    border-bottom: solid 3px #d7d7d7;
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: 26px;;
+}
+
+/* H3 */
+h3 {
+    position: relative;
+    padding: 5px 5px 5px 42px;
+    background: #77c3df;
+    font-size: 20px;
+    color: white;
+    margin-left: -33px;
+    line-height: 1.3;
+    z-index:-1;
+    margin-bottom: 10px;
+}
+
+h3:before {
+    position: absolute;
+    content: '';
+    left: -2px;
+    top: -2px;
+    border: none;
+    border-left: solid 40px white;
+    border-bottom: solid 79px transparent;
+    z-index:-2
 }
 
 /* フッター部分 */
