@@ -42,6 +42,7 @@
     padding-top: 60px;
 }
 
+/* 教育目標のリストデザイン */
 ul.educational_goals, ol {
     border-radius :8px;
     box-shadow :0px 0px 5px silver;
