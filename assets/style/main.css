@@ -73,6 +73,11 @@ table {
 }
 
 @media screen and (max-width: 640px) {
+    .department_of_installation_last td:last-child {
+        border-bottom: solid 1px #ccc;
+        width: 100%;
+    }
+    
     .department_of_installation {
         width: 80%;
     }
