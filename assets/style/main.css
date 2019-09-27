@@ -171,6 +171,7 @@ h3:before {
     z-index:-2
 }
 
+/* 部活動紹介 */
 .club {
     display: flex;
     flex-wrap: wrap;
