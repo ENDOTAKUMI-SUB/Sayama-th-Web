@@ -171,6 +171,29 @@ h3:before {
     z-index:-2
 }
 
+/* 部活動紹介 */
+.club {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.club-content {
+    width: 400px;
+    height: 200px;
+    background-color: #eee;
+    margin: 10px;
+    
+    position: relative;
+}
+
+.club-title {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 30px;
+}
+
 /* フッター部分 */
 #footer {
     width: 100%;
