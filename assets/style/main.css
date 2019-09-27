@@ -186,6 +186,13 @@ h3:before {
     position: relative;
 }
 
+.club-title {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 30px;
+}
+
 /* フッター部分 */
 #footer {
     width: 100%;
