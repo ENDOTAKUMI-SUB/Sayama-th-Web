@@ -171,6 +171,21 @@ h3:before {
     z-index:-2
 }
 
+.club {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.club-content {
+    width: 400px;
+    height: 200px;
+    background-color: #eee;
+    margin: 10px;
+    
+    position: relative;
+}
+
 /* フッター部分 */
 #footer {
     width: 100%;
