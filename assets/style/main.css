@@ -68,6 +68,10 @@ a[target="_blank"]::before{
     font-size: 64px;
 }
 
+.arrow {
+    padding-top: 80px;
+}
+
 /* コンテンツ部分 */
 #main {
     padding-top: 60px;
