@@ -221,7 +221,7 @@ h3:before {
     font-size: 24px;
 }
 
-@media ( min-width : 640px ){
+@media ( min-width : 720px ){
     .timeline > li {
         overflow: hidden;
         margin: 0;
@@ -229,7 +229,7 @@ h3:before {
     }
     
     .timeline-date {
-        width: 110px;
+        width: 155px;
         float: left;
         margin-top: 20px;
     }
@@ -247,7 +247,7 @@ h3:before {
         height: 12px;
         background: #6fc173;
         position: absolute;
-        left: 106px;
+        left: 150px;
         top: 24px;
         border-radius: 100%;
     }
